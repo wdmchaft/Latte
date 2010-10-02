@@ -35,6 +35,8 @@
 #import "OptionsConstants.h"
 #import "NSColor+HexadecimalValue.h"
 
+#define kPDFScalingFactor 2
+
 @implementation DocumentWC
 
 @synthesize imageView;
@@ -73,7 +75,19 @@
 		
 		NSPDFImageRep *rep = [[[NSPDFImageRep alloc] initWithData:doc.outputData] autorelease];
 		image = [[[NSImage alloc] init] autorelease];
-		[image addRepresentation:rep];		
+		
+		// Check if we have room to scale the PDF by kPDFScalingFactor
+		NSSize scaledSize = [rep size];
+		scaledSize.width *= kPDFScalingFactor;
+		scaledSize.height *= kPDFScalingFactor;
+		
+		if (scaledSize.width < [imageView bounds].size.width &&
+			scaledSize.height < [imageView bounds].size.height)
+		{
+			[image setSize:scaledSize];
+		}
+		
+		[image addRepresentation:rep];
 	}
 	else {
 		currentlyShowing = currentlyShowingImage;
@@ -232,7 +246,7 @@
 						colourCodes[textColour - 1], preinput];
 		}
 
-		preinput = [NSString stringWithFormat:@"\\LARGE %@", preinput];
+//		preinput = [NSString stringWithFormat:@"\\Large %@", preinput];
 	}
 	
 	/*
