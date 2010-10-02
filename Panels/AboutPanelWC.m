@@ -59,7 +59,7 @@
 	NSString *appName = [self objectForKey:@"CFBundleName"];
 	
 	NSFont *font = [appNameField font];
-	font = [[NSFontManager sharedFontManager] convertFont:font toSize:16.0];
+	font = [[NSFontManager sharedFontManager] convertFont:font toSize:16];
 	font = [[NSFontManager sharedFontManager] convertFont:font toHaveTrait:NSBoldFontMask];
 	
 	NSMutableParagraphStyle *pstyle = [[[NSMutableParagraphStyle alloc] init] autorelease];

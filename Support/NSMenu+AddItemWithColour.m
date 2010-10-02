@@ -40,9 +40,9 @@ NSImage *smallSquareWithColour(NSColor *colour);
 }
 
 NSImage *smallSquareWithColour(NSColor *colour) {
-	const CGFloat width = 15.0;
-	const CGFloat height = 10.0;
-	const NSRect rect = NSMakeRect(0.0, 0.0, width, height);
+	const CGFloat width = 15;
+	const CGFloat height = 10;
+	const NSRect rect = NSMakeRect(0, 0, width, height);
 	NSBitmapImageRep* rep = nil;
 	
 	rep = [[[NSBitmapImageRep alloc] initWithBitmapDataPlanes:nil

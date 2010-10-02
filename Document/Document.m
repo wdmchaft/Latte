@@ -51,7 +51,7 @@
 @synthesize googleChartHeight;
 
 - (id)init {
-	if (self = [super init]) {
+	if ((self = [super init])) {
 		latexInput = [NSString new];
 		outputType = outputTypeUndefined;
 		outputData = [NSData new];

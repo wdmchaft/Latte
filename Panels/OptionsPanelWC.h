@@ -46,6 +46,7 @@
 
 - (IBAction)webEngineChanged:(id)sender;
 
+- (void)inspectorPanelDidResignKey:(NSNotification *)notification;
 - (void)activeDocumentChanged;
 
 @end

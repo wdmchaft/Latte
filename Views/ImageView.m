@@ -61,7 +61,6 @@
 
 - (void)mouseDragged:(NSEvent *)event {
 	NSPasteboard *pasteboard = [NSPasteboard pasteboardWithName:NSDragPboard];
-	NSPoint imageBottomLeftCorner;
 	NSPoint imageLocation;
 	NSSize imageSize = [[self image] size];
 	NSRect viewBounds = [self bounds];

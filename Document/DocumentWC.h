@@ -60,6 +60,7 @@ typedef enum {
 
 - (IBAction)render:(id)sender;
 
+- (void) dismissAlert:(NSAlert *)alert returnCode:(NSInteger)returnCode contextInfo:(void *)contextInfo;
 - (NSURL *)makeURL;
 
 

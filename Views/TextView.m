@@ -69,7 +69,7 @@
 }
 
 // Disable completion
-- (NSArray *)completionsForPartialWordRange:(NSRange)charRange indexOfSelectedItem:(NSInteger *)index {
+- (NSArray *)completionsForPartialWordRange:(NSRange)charRange indexOfSelectedItem:(NSInteger *)theIndex {
 	return nil;
 }
 
