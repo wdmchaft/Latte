@@ -3,6 +3,7 @@
 *.swp
 *~.nib
 
+*.pch
 build
 
 *.pbxuser

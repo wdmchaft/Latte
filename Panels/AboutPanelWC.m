@@ -84,9 +84,6 @@
 	
 	// Show credits
 	NSString *creditsFilePath = [[NSBundle mainBundle] pathForResource:@"Credits" ofType:@"html"];
-	
-	NSLog(@"creditsFilePath: %@", creditsFilePath);
-	
 	if (creditsFilePath) {
 		NSAttributedString *credits = [[[NSAttributedString alloc] initWithPath:creditsFilePath
 															 documentAttributes:NULL]
