@@ -26,6 +26,7 @@
 		14292B5412570DBB0071F500 /* Latte Document.icns in Resources */ = {isa = PBXBuildFile; fileRef = 14292B5112570DBB0071F500 /* Latte Document.icns */; };
 		14292B5512570DBB0071F500 /* Latte.icns in Resources */ = {isa = PBXBuildFile; fileRef = 14292B5212570DBB0071F500 /* Latte.icns */; };
 		14292B5612570DBB0071F500 /* Render.png in Resources */ = {isa = PBXBuildFile; fileRef = 14292B5312570DBB0071F500 /* Render.png */; };
+		14292BF4125724B60071F500 /* olabsparkle_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 14292BF3125724B60071F500 /* olabsparkle_pub.pem */; };
 		149BAF461240F0080032BEE9 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149BAF451240F0080032BEE9 /* Sparkle.framework */; };
 		149BAF581240F03C0032BEE9 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 149BAF451240F0080032BEE9 /* Sparkle.framework */; };
 		14B84DE01255D06800F79DC8 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14B84DDF1255D06800F79DC8 /* Preferences.xib */; };
@@ -93,6 +94,7 @@
 		14292B5112570DBB0071F500 /* Latte Document.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "Latte Document.icns"; path = "Images/Latte Document.icns"; sourceTree = "<group>"; };
 		14292B5212570DBB0071F500 /* Latte.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Latte.icns; path = Images/Latte.icns; sourceTree = "<group>"; };
 		14292B5312570DBB0071F500 /* Render.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Render.png; path = Images/Render.png; sourceTree = "<group>"; };
+		14292BF3125724B60071F500 /* olabsparkle_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = olabsparkle_pub.pem; path = Sparkle/olabsparkle_pub.pem; sourceTree = "<group>"; };
 		144927F612341D050059B96D /* Licence.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Licence.txt; sourceTree = "<group>"; };
 		149BAF451240F0080032BEE9 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		14BED36F12490B9800534A5E /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/OptionsPanel.xib; sourceTree = "<group>"; };
@@ -284,6 +286,7 @@
 		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				14292BF3125724B60071F500 /* olabsparkle_pub.pem */,
 				14CA9A061256794700A63574 /* Localizable.strings */,
 				14CA998A12563E9F00A63574 /* Credits.html */,
 				14C98D53124B3B470015A33B /* Nibs */,
@@ -371,6 +374,7 @@
 				14CA998C12563E9F00A63574 /* Credits.html in Resources */,
 				14CA9A071256794700A63574 /* Localizable.strings in Resources */,
 				14292B4712570D190071F500 /* AboutPanel.xib in Resources */,
+				14292BF4125724B60071F500 /* olabsparkle_pub.pem in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
