@@ -71,7 +71,7 @@
 	<key>CFBundleVersion</key>
 	<string>0.1</string>
 	<key>SUFeedURL</key>
-	<string>http://olivierlabs.com/latte/sparkle/profileInfo.php</string>
+	<string>http://olivierlabs.com/latte/sparkle/appcast.php</string>
 	<key>SUPublicDSAKeyFile</key>
 	<string>olabsparkle_pub.pem</string>
 	<key>SUEnableSystemProfiling</key>
